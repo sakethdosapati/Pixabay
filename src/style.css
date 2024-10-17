@@ -1,0 +1,204 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+  /* NAV */
+nav{
+  width:100%;
+  position: fixed;
+  top:0px;
+  z-index: 1;
+  height:60px;
+  border:solid;
+  display:flex;
+  justify-content: space-between;
+  padding:10px 20px;
+  background-color: black;
+}
+nav svg{
+  width:10%;
+  color:white;
+}
+#bar{
+  color:white;
+}
+#navdiv{
+  /* border:solid white; */
+  width:30%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#b1{
+  background-color: transparent;
+  color:white;
+  border: none;
+  padding: 10px;
+}
+#b1:hover{
+  background-color:rgba(128, 128, 128, 0.432);
+  border-radius: 20px;
+ 
+}
+#b2{
+  border-radius: 20px;
+  padding: 10px;
+  /* border:solid 1px; */
+  border:none;
+  color:white;
+  background-color:#eeeeee3a;
+}
+#b2:hover{
+  border:1px solid ;
+
+}
+
+/* Search div */
+
+
+#div1{
+  /* border:solid; */
+  margin:60px 0px 0px;
+  height:75vh;
+  display:flex column;
+  align-items:start;
+  padding:100px;
+  /* background-color: blue; */
+  /* text-align: center; */
+  
+}
+#div1 svg{
+  display:block;
+  width: 20%;
+  margin:0px auto 10px;  
+}
+#div1 h2{
+ text-align: center;
+ margin:0px 0px 10px;
+}
+#input{
+  display:block;
+  width: 75%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 28px;
+  margin:auto;
+  font-size: 16px;
+  background-color: transparent;
+  border:none;
+  outline:solid;
+  color:rgba(0, 0, 0, 0.224);
+  
+}
+#input:focus{
+  background-color:rgba(177, 166, 166, 0.066);
+  outline: none;
+  border:solid black;
+  color:black;
+}
+#input::placeholder{
+  color:rgba(0, 0, 0, 0.484);
+}
+#images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  gap:5px;
+}
+
+#img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  /* object-fit: cover; */
+}
+
+/* login ,Signup*/
+
+.login-signup {
+  width:35%;
+  /* height:70vh; */
+  margin:20px auto ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+#p1 {
+  text-align: center;
+  color: #666;
+  
+}
+#fp{
+  font-size: 12px;
+  color:#14bc7d;
+  
+}
+
+.login-signup button {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  text-align: center;
+}
+#logb1 svg,#logb2 svg{
+  width:5%;
+  margin:0px 10px 0px 0px;
+}
+.login-signup input{
+  width: 100%;
+  padding: 5px;
+  margin: 0px 0px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.login-signup label {
+  font-size: 14px;
+  display: block;
+  color: #333;
+  margin:10px 
+}
+#or{
+  display:flex;
+  text-align: center;
+}
+.login-signup hr {
+  display: inline;
+  width:48%;
+  margin: 10px 0;
+}
+#p2 {
+  font-size: 12px;
+  color: #66666679;
+  text-align: center;
+}
+#p2 span{
+  color:#14bc7d;
+}
+#logbutt{
+  background-color:#14bc7d !important;
+  color:white;
+}
+
+/* ImagePage */
+
+#imgdiv{
+  text-align: center;
+  margin:70px 0px 10px;
+}
+#imgcarousel{
+  padding: 10px;
+}
+#imgsvg{
+  margin:auto;
+  cursor: pointer;
+}
